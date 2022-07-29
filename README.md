@@ -1,6 +1,12 @@
 # ExpressJS-Login-Application
 Login/Register/And Password Reset into one Repository. Simple yet effective.
 
+# Features
+### 1. Login / Account Register with MySQL.
+### 2. Account Credentials Encryption.
+### 3. Reset Password Functionality with Email Support.  
+
+# Screenshots
 # Login Page
 ![image](https://user-images.githubusercontent.com/48765827/181691725-3783bdf6-0423-4318-9f7a-e56d8b3d9f12.png)
 
