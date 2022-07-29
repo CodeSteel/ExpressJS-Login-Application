@@ -19,7 +19,7 @@ function InitializeData() {
         password TEXT NOT NULL,
         emailiv TEXT NOT NULL,
         passwordiv TEXT NOT NULL,
-        passwordresettoken TEXT NOT NULL,
+        passwordresettoken TEXT,
         PRIMARY KEY (id)
     ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;`);
 
