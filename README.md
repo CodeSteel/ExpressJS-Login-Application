@@ -4,7 +4,8 @@ Login/Register/And Password Reset into one Repository.
 # Features
 1. Login / Account Register with MySQL.
 2. Account Credentials Encryption.
-3. Reset Password Functionality with Email Support.  
+3. Reset Password Functionality with Email Support.
+4. Responsive and Beautiful layout made with Pure CSS.
 
 # How to Install
 1. Clone reposoitory. `git clone https://github.com/CodeSteel/ExpressJS-Login-Application.git`
