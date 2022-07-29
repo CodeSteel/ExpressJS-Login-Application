@@ -27,7 +27,7 @@ coverage
 
 
 # don't copy config file
-config.js
+/config.js
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
