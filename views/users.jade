@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .main
+    .user
+        h1= title
+        h2 View all registered users.
+            each user in users
+                h3 #{user.username}

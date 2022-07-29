@@ -1,0 +1,11 @@
+.navbar
+    a(href="/") CODESTEEL.io
+    .right
+        a(href="/users") Users
+        if loggedin
+            a(href="/logout") Logout
+        unless loginpage 
+            if !loggedin
+                a(href="/login") Login
+        if loginpage 
+            a(href="/register") Register

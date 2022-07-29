@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .main
+    h1= title
+    h2 Log-in to your account.
+    form(action="/auth" method="post")
+      input(type="text", name="username", placeholder="Username or Email", id="username")
+      input(type="password", name="password", placeholder="Password", id="password")
+      input(type="submit", value="Login").submit
+    a(href="/forgotpassword").forgot Forgot your password?

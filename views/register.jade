@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    .main
+        h1= title
+            h2 Register for a new account.
+        form(action="/auth_register" method="post")
+            input(type="text", name="username", placeholder="Username", id="username")
+            input(type="email", name="email", placeholder="Email", id="email")
+            input(type="password", name="password", placeholder="Password", id="password")
+            input(type="submit", value="Create an Account").submit
